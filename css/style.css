@@ -38,3 +38,74 @@ footer ul {
     width: 50%;
     margin-left: auto;
 }
+
+/* My Work Section Constructed using CSS Grid */
+.myWork h1 {
+    text-align: center;
+    padding: 75px;
+    font-size: larger;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "image title"
+    "image paragraph"
+    "image button";
+}
+#image {
+    grid-area: image;
+}
+#title {
+    grid-area: title;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+#paragraph {
+    grid-area: paragraph;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+#button {
+    grid-area: button;
+    margin-left: 100px;
+}
+.workGrid img {
+    max-height: 50%;
+    max-width: auto;
+}
+.workGridTwo {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "image title"
+    "image paragraph"
+    "image button";
+}
+#image {
+    grid-area: image;
+}
+#title {
+    grid-area: title;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+#paragraph {
+    grid-area: paragraph;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+#button {
+    grid-area: button;
+    margin-left: 100px;
+}
+.workGridTwo img {
+    max-height: auto;
+    max-width: 100%;
+}
+section {
+    max-width: 900px;
+    margin: auto;
+}
