@@ -80,7 +80,7 @@ footer ul {
     margin-left: 100px;
 }
 .workGrid img {
-    max-height: 50%;
+    max-height: 300px;
     max-width: auto;
 }
 .workGridTwo {
@@ -114,8 +114,8 @@ footer ul {
     margin-left: 100px;
 }
 .workGridTwo img {
-    max-height: auto;
-    max-width: 100%;
+    width: 137%;
+    height: auto;
 }
 section {
     max-width: 900px;
