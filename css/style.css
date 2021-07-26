@@ -48,10 +48,10 @@ footer ul {
 }
 .workGrid {
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
     height: 300px;
     width: 1000px;
     margin-bottom: 35px;
-    background-color:bisque;
     display: grid;
     grid-template-columns: 25% 75%;
     grid-template-rows: 1fr 1fr 1fr;
@@ -78,14 +78,17 @@ footer ul {
 #button {
     grid-area: button;
     margin-left: 100px;
+    background-color: peru;
+    color: white;
 }
 .workGrid img {
-    max-height: 300px;
+    max-height: 240px;
     max-width: auto;
+    margin-left: 100px;
 }
 .workGridTwo {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightblue;
+    color: gray;
     height: 300px;
     width: 1000px;
     display: grid;
@@ -116,6 +119,7 @@ footer ul {
 .workGridTwo img {
     width: 137%;
     height: auto;
+    border-radius: 5%;
 }
 section {
     max-width: 900px;
