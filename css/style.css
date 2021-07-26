@@ -50,7 +50,11 @@ footer ul {
     margin-left: auto;
 }
 
-/* Skills Section Constructed using CSS Grid */
+/* Skills Section Constructed using CSS flex */
+.flexContainer {
+    display: flex;
+    width: 33%;
+}
 .mySkills h1 {
     text-align: center;
     padding: 75px;
