@@ -55,9 +55,8 @@ footer ul {
     text-align: center;
     padding: 75px;
     font-size: larger;
+    text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
-    height: 2px;
-    width: auto;
 }
 .mySkills img {
     margin-left: 30px;
@@ -69,10 +68,12 @@ footer ul {
     text-align: center;
     padding: 75px;
     font-size: larger;
+    text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
 }
 .workGrid {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
     color: gray;
     height: 300px;
     width: 1000px;
@@ -94,11 +95,14 @@ footer ul {
     grid-area: title;
     margin-bottom: 30px;
     margin-left: 100px;
+    margin-top: 25px;
+    text-decoration: underline;
 }
 #paragraph {
     grid-area: paragraph;
     margin-bottom: 30px;
     margin-left: 100px;
+    margin-right: 50px;
 }
 #button {
     grid-area: button;
@@ -110,9 +114,11 @@ footer ul {
     max-height: 240px;
     max-width: auto;
     margin-left: 100px;
+    margin-top: 25px;
 }
 .workGridTwo {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: seashell;
     color: gray;
     height: 300px;
     width: 1000px;
@@ -126,11 +132,13 @@ footer ul {
 }
 #image {
     grid-area: image;
+    margin-left: 25px;
 }
 #title {
     grid-area: title;
     margin-bottom: 30px;
     margin-left: 100px;
+    margin-top: 25px;
 }
 #paragraph {
     grid-area: paragraph;
@@ -145,6 +153,7 @@ footer ul {
     width: 137%;
     height: auto;
     border-radius: 5%;
+    margin-top: 50px;
 }
 section {
     max-width: 900px;
