@@ -13,6 +13,7 @@ nav {
 nav ul {
     width: 50%;
     margin-left: auto;
+    word-spacing: 10px;
 }
 div.content{
     text-align: center;
