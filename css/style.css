@@ -63,6 +63,8 @@ footer ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 .mySkills img {
+    width: 137%;
+    height: auto;
     margin-left: 30px;
 }
 
