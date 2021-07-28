@@ -163,3 +163,16 @@ section {
     max-width: 900px;
     margin: auto;
 }
+
+@media only screen and (max-width: 600){
+    .flexContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "title"
+    "image"
+    "paragraph"
+    "button";
+    }
+}
+
